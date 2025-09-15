@@ -121,6 +121,90 @@ console.log(string(str4));
 
 
 
+// scopeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee
+// global
+// function scope {priority zayada}
+// block scope
+
+
+
+// lexical outer ki priority zayada
+
+
+// (outer) ka variables (inner) me use hoty
+// (inner) ka variables (outer) me use ni hoty
+
+
+
+
+// function ko kisi variable ma
+// sum
+let variable=function summ(a,b){
+    console.log(a+b);
+}
+variable(1,2);
+
+
+
+// high order function within function
+function print1(print2){
+    console.log("zumer");
+    print2();
+
+}
+function print2(){
+    console.log("niaz");
+}
+
+print1(print2);
+
+
+
+
+
+
+// return factory of even and odd
+// function factory(req){
+//     if(req=="even"){
+//         return function(n){
+//             console.log(!(n%2==0));
+//         }
+//     }
+
+
+//       else if(req=="odd"){
+//         return function(n){
+//             console.log((n%2==0));
+//         }
+//     }
+//     else{
+//         console.log("req is wrong");
+//     }
+// }
+
+
+// calculator as object
+// const calculator={
+//     add:function(a,b){
+//         return(a+b);
+//     },
+//      sub:function(a,b){
+//         return(a-b);
+//     },
+//      mul:function(a,b){
+//         return(a*b);
+//     },
+// }
+
+
+
+
+
+
+
+
+
+
 
 
 
