@@ -79,6 +79,49 @@ table(2);
 
 
 
+// return 
+// sum
+function sum(a,b){
+    return a+b;
+    let l=a+b; // return ka bad nothing adds
+}
+let ans=sum(sum(40,40),40);  //return hota
+console.log(ans);
+
+
+
+// sum 1 to n
+function sm(n){
+    let sum=0;
+    for(let i=1;i<=n;i++){
+        sum+=i;
+        
+    }
+    return sum;
+}
+
+let answer=sm(4);
+console.log(answer);
+
+
+// concatenation of strings
+let str4=["My ","name ","is ","zumer."];
+function string(str4){
+    
+    let sum="";
+    for(let i=0;i<str4.length;i++){
+        sum+=str4[i];
+        
+    }
+    return sum;
+}
+
+
+console.log(string(str4));
+
+
+
+
 
 
 
